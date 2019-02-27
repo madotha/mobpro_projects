@@ -8,6 +8,7 @@
 
 // Section 1 Strings
     <string name="main_section1">1. Layouts</string>
+    <string name="main_section1_text">Wähle eines der folgenden Layouts für die Demo:</string>
     <string name="main_radio_linearText">Linear Layout</string>
     <string name="main_radio_relativeText">Relative Layout</string>
 
