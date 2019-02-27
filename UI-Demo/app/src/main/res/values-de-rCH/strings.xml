@@ -6,7 +6,7 @@
 
     <string name="title_activity_layout_demo">LayoutDemoActivity</string>
 
-// Section 1 Strings
+    // Section 1 Strings
     <string name="main_section1">1. Läyauts</string>
     <string name="main_section1_text">Wähl äis vodä folgendä Läyauts förd Demo:</string>
     <string name="main_radio_linearText">Linears Läyaut</string>
@@ -22,8 +22,22 @@
     <string name="main_const_button">Priis berächne</string>
     <string name="main_const_footer">Priisoogabe ohni Gwähr</string>
 
-// Section 2 Strings
+    // Section 2 Strings
     <string name="main_section2">2. Schkriin-Orienteischen ond Öbersetzig</string>
     <string name="main_configDemoText">Diese Seite hat ein angepasstes Layout für Landscape Mode. Probier es aus! Aussserdem kann sie auch Schweizerdeutsch: Stelle die Sprache im Emulator auf Deutsch (Schweiz) um und starte die App erneut.</string>
+
+    //Section 3 Strings
+    <string name="main_section3">3. Vius ond Iivänts</string>
+    <string name="main_section3_button">Siite met Vius-Demos aazeige</string>
+
+    <string name="viewdemo_logLabel">Nüüi Bewärtig: usstehend</string>
+    <string name="viewdemo_ratinglabel">Do chasch biggooscht e Bewärtig abgäh:</string>
+    <string name="viewdemo_radio1">biggooscht</string>
+    <string name="viewdemo_radio2">noodligs</string>
+    <string name="viewdemo_radio3">allewiile</string>
+    <string name="viewdemo_radio4">ebä</string>
+    <string name="viewdemo_toggle01_on">Mä gsehd mii</string>
+    <string name="viewdemo_toggle01_off">Mä gsehd mii nööd</string>
+
 
 </resources>

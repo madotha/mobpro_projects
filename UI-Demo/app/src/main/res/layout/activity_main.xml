@@ -51,9 +51,10 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
                 android:text="@string/main_section1_text" />
 
             <RadioGroup
@@ -79,6 +80,50 @@
                     android:textSize="18sp"
                     android:onClick="startConstraintLayoutDemo"/>
             </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FF5858"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="@string/main_section2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:text="@string/main_configDemoText" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FF5858"
+                android:clickable="false"
+                android:padding="10dp"
+                android:text="@string/main_section3"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startViewsDemoActivity"
+                android:text="@string/main_section3_button" />
 
         </LinearLayout>
     </ScrollView>
