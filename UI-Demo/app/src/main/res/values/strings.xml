@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">UI-Demo</string>
+
+    <string name="main_title">HSLU - Mobile Programming</string>
+    <string name="main_welcomeText">Willkommen zum zweiten Kursblock!</string>
+
+    <string name="title_activity_layout_demo">LayoutDemoActivity</string>
+
+    <string name="main_section1">1. Layouts</string>
+    <string name="main_radio_linearText">Linear Layout</string>
+    <string name="main_radio_relativeText">Relative Layout</string>
+
+    
 </resources>
