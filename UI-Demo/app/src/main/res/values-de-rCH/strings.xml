@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">UI-Demo</string>
+
+    <string name="main_title">HSLU - Mobäil Progrämming</string>
+    <string name="main_welcomeText">Wellkommä zom zweitä Korsblöcku höi!</string>
+
+    <string name="title_activity_layout_demo">LayoutDemoActivity</string>
+
+    <string name="main_section1">1. Läyauts</string>
+    <string name="main_radio_linearText">Linears Läyaut</string>
+    <string name="main_radio_relativeText">Relativs Läyaut</string>
+
+    <string name="main_linearlayout_vertical">I bin äs vertikaaus LineärLäyaut</string>
+    <string name="main_linearlayout_horizontal">I bin äs horizontaus LineärLäyaut</string>
+
+    <string name="main_const_title">Bschtöuig</string>
+    <string name="main_const_input1">Produkt-IDe</string>
+    <string name="main_const_input2">Mängi</string>
+    <string name="main_const_checkbox">Songrtariif</string>
+    <string name="main_const_button">Priis berächne</string>
+    <string name="main_const_footer">Priisoogabe ohni Gwähr</string>
+
+    <string name="main_section2">2. Schkriin-Orienteischen ond Öbersetzig</string>
+    <string name="main_configDemoText">Diese Seite hat ein angepasstes Layout für Landscape Mode. Probier es aus! Aussserdem kann sie auch Schweizerdeutsch: Stelle die Sprache im Emulator auf Deutsch (Schweiz) um und starte die App erneut.</string>
+
+</resources>
