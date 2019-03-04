@@ -31,6 +31,7 @@
     <string name="main_section3_button">Seite mit Views-Demos anzeigen</string>
 
     <string name="viewdemo_logLabel">Neue Bewertung: ausstehend</string>
+    <string name="viewdemo_logLabel_dyn">Neue Bewertung:&#160;</string>
     <string name="viewdemo_ratinglabel">Hier kannst du wirklich eine Bewertung abgeben:</string>
     <string name="viewdemo_radio1">wahrhaftig</string>
     <string name="viewdemo_radio2">pressant</string>

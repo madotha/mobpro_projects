@@ -10,6 +10,7 @@ public class ViewsDemoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        final String loglabel_dyn = getString(R.string.viewdemo_logLabel_dyn);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_views_demo);
 
@@ -19,7 +20,7 @@ public class ViewsDemoActivity extends AppCompatActivity {
         ratingbar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
             @Override
             public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-                logLabel.setText("Neue Bewertung: "+rating);
+                logLabel.setText(loglabel_dyn+rating);
             }
         });
     }

@@ -24,13 +24,14 @@
 
     // Section 2 Strings
     <string name="main_section2">2. Schkriin-Orienteischen ond Öbersetzig</string>
-    <string name="main_configDemoText">Diese Seite hat ein angepasstes Layout für Landscape Mode. Probier es aus! Aussserdem kann sie auch Schweizerdeutsch: Stelle die Sprache im Emulator auf Deutsch (Schweiz) um und starte die App erneut.</string>
+    <string name="main_configDemoText">Diä Siite hed äs aapassts Läyaut fürä Ländskeip Moud. Probiers mou us! Osserdäm cha si ou Hochdütsch: Stell d Sproch of irgendöppis osser Deutsch (Schweiz) om ond start d Äpp neu.</string>
 
     //Section 3 Strings
     <string name="main_section3">3. Vius ond Iivänts</string>
     <string name="main_section3_button">Siite met Vius-Demos aazeige</string>
 
     <string name="viewdemo_logLabel">Nüüi Bewärtig: usstehend</string>
+    <string name="viewdemo_logLabel_dyn">Nüüi Bewärtig:&#160;</string>
     <string name="viewdemo_ratinglabel">Do chasch biggooscht e Bewärtig abgäh:</string>
     <string name="viewdemo_radio1">biggooscht</string>
     <string name="viewdemo_radio2">noodligs</string>
