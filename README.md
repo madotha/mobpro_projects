@@ -1,4 +1,4 @@
-# mobpro_projects
+# HSLU MOBPRO - Projects
 MOP-BRO Brojects in Android Studio for the MOBPRO Module ät HSLU
 
 ---
