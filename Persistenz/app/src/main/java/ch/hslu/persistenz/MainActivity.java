@@ -8,8 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         int counterForLabel = sharedPreferences.getInt("counterKey", 0);
         counterView.setText("MainActivity.onResume() wurde seit der Installation dieser App "+counterForLabel+" mal aufgerufen.");
 
-        this.setTeaPreferences();
+        this.printTeaPreferences();
 
     }
 
@@ -54,19 +52,36 @@ public class MainActivity extends AppCompatActivity {
         editor.putBoolean("teaWithSugar", true);
         editor.apply();
 
-        this.setTeaPreferences();
+        this.printTeaPreferences();
     }
 
-    public void setTeaPreferences() {
+    public void printTeaPreferences() {
         SharedPreferences teaPrefs = PreferenceManager.getDefaultSharedPreferences(this);
+        Boolean teaWithSugar = teaPrefs.getBoolean("teaWithSugar", true);
         String teaSweetener = teaPrefs.getString("teaSweetener","unicorn");
         String teaPreferred = teaPrefs.getString("teaPreferred", "Grüntee");
         System.out.print(teaSweetener);
         final TextView prefsView = (TextView) findViewById(R.id.main_section1_preferences);
-        prefsView.setText("Ich trinke am liebsten "+teaPreferred+", mit "+teaSweetener+" gesüsst.");
+        if (teaWithSugar == false) {
+            prefsView.setText("Ich trinke am liebsten "+teaPreferred+".");
+        } else {
+            prefsView.setText("Ich trinke am liebsten " + teaPreferred + ", mit " + getValueFromKey(teaSweetener) + " gesüsst.");
+        }
+     }
 
-        // TODO: zeigt noch EntryValue anstatt Entry an
-
+    public String getValueFromKey(String key) {
+        String[] keys = getResources().getStringArray(R.array.teaSweetenerValues);
+        String[] values = getResources().getStringArray(R.array.teaSweetener);
+        int i = 0;
+        while(i < keys.length) {
+            if(keys[i].equals(key)) {
+                return values[i];
+            }
+            i++;
+        }
+        return "";
     }
+
+
 
 }
