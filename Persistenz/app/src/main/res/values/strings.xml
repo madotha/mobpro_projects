@@ -8,6 +8,11 @@
     <string name="main_section1_buttonPreferences">Tee-Preferences editieren</string>
     <string name="main_section1_buttonDefaultPreferences">Tee Default-Prefs setzen</string>
 
-
+    <string name="main_section2_title">Dateisystem</string>
+    <string name="main_section2_checkbox">Externen Speicher benutzen</string>
+    <string name="main_section2_savebutton">Speichern</string>
+    <string name="main_section2_loadbutton">Laden</string>
+    <string name="main_section2_status">Aktueller Lese/Schreibe-Status</string>
+    
 
 </resources>

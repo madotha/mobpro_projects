@@ -17,8 +17,6 @@ public class TeaPreferenceActivity extends Activity {
     protected void onStop() {
         super.onStop();
         setContentView(R.layout.activity_main);
-
-
     }
 
     public static final class TeaPreferenceInitializer extends PreferenceFragment {
