@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="teaSweetenerValues">
+        <item>natural</item>
+        <item>one_articifial</item>
+        <item>all_artificial</item>
+        <item>industrial</item>
+        <item>unicorn</item>
+    </string-array>
+
+    <string-array name="teaSweetener">
+        <item>Rohrzucker</item>
+        <item>ein Assugrin</item>
+        <item>alle Assugrin</item>
+        <item>Industriezucker</item>
+        <item>Einhornstaub</item>
+    </string-array>
+
+
+</resources>

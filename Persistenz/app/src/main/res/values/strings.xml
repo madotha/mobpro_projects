@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Persistenz</string>
+
+    <string name="main_title">HSLU Mobile Programming</string>
+    <string name="main_section1_title">Application Preferences</string>
+    <string name="main_section1_counterLabel">Hier sollte der Zähler für die App-Aufrufe dargestellt werden.</string>
+    <string name="main_section1_preferencesLabel">Hier sollen die Präferenzen angezeigt werden.</string>
+    <string name="main_section1_buttonPreferences">Tee-Preferences editieren</string>
+    <string name="main_section1_buttonDefaultPreferences">Tee Default-Prefs setzen</string>
+
+
+
 </resources>
