@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     @Override
@@ -53,6 +52,26 @@ public class MainActivity extends AppCompatActivity {
 
         this.printTeaPreferences();
 
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        switch(requestCode) {
+            case 24:
+                if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(this, "Permission " + permissions[0] + " denied! ", Toast.LENGTH_SHORT).show();
+                } else {
+                    loadExternal();
+                }
+                break;
+            case 25:
+                if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+                    Toast.makeText(this, "Permission " + permissions[0] + " denied! ", Toast.LENGTH_SHORT).show();
+                } else {
+                    writeExternal();
+                }
+                break;
+        }
     }
 
     public void editTeaPreferences(View v) {
@@ -240,26 +259,6 @@ public class MainActivity extends AppCompatActivity {
             requestPermissions(new String[] { Manifest.permission.WRITE_EXTERNAL_STORAGE }, 25);
         } else {
             writeExternal();
-        }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        switch(requestCode) {
-            case 24:
-                if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(this, "Permission " + permissions[0] + " denied! ", Toast.LENGTH_SHORT).show();
-                } else {
-                    loadExternal();
-                }
-                break;
-            case 25:
-                if (grantResults.length > 0 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(this, "Permission " + permissions[0] + " denied! ", Toast.LENGTH_SHORT).show();
-                } else {
-                    writeExternal();
-                }
-                break;
         }
     }
 

@@ -13,6 +13,5 @@
     <string name="main_section2_savebutton">Speichern</string>
     <string name="main_section2_loadbutton">Laden</string>
     <string name="main_section2_status">Aktueller Lese/Schreibe-Status</string>
-    
 
 </resources>
