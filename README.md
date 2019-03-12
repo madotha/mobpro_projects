@@ -8,3 +8,4 @@ I try to keep on pushing every exercise I do on here, but after the mandatory on
 - **SW01: Grundlagen** MyHelloWorld & FirstAppSkeleton
 - **SW02: Benutzerschnittstellen** UI-Demo
 - **SW03: Persistenz** Persistenz `(wow)`
+- **SW04: Kommunikation & Nebenläufigkeit** ComAndCon
