@@ -11,7 +11,6 @@ I try to keep on pushing every exercise I do on here, but after the mandatory on
 - **SW04: Kommunikation & Nebenläufigkeit** ComAndCon
 - **SW05: Services & Broadcast Receiver** `nothing`
 - **SW06: Intents, Fragments, App-Widgets** `nothing`
-- **SW07: Hybrid WebApp** MovieApp
-  - MovieApp3: Ionic 3.20.1 Umsetzung
-  - MovieApp4: Ionic 4.12.0 Umsetzung (weise gerne auf diese [Lösung](https://github.com/ppsan/HSLU_MOBPRO/blob/master/Uebung07/notes.md) hin)
+- **SW07: Hybrid WebApp** MovieApp (weise gerne auf diese [Lösung](https://github.com/ppsan/HSLU_MOBPRO/blob/master/Uebung07/notes.md) hin)
+  - Textfile mit Links zu Projekten
 
