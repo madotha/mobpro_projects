@@ -1,7 +1,0 @@
-{
-  "name": "MovieApp",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
