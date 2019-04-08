@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Favourites</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let movie of movies" (click)="itemTapped($event, movie)">
+      <img src="./assets/imgs/star.png" class="star">
+      {{movie.Title}}
+      <div class="item-note" item-end>
+
+      </div>
+    </button>
+  </ion-list>
+  <div *ngIf="selectedItem" padding>
+    <h2>{{selectedItem.Title}}</h2>
+    <h3>{{selectedItem.Director}}</h3>
+    <h4>{{selectedItem.Country}}, {{selectedItem.Year}}</h4>
+    <div class="plot">
+      <p>
+        {{selectedItem.Plot}}
+      </p>
+      <img src="{{selectedItem.Poster}}"/>
+    </div>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    Mobile App / HSLU I
+  </ion-toolbar>
+</ion-footer>

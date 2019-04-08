@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Movie App - Search</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <p>
+    Enter the movie title to search for below and press the enter key or the search button.
+  </p>
+
+  <ion-input placeholder="Movie title" [(ngModel)]="searchQuery" type="text" (keyup.enter)="doSearch()"></ion-input>
+
+  <button ion-button type="submit" (click)=doSearch()>Search</button>
+
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    Mobile App / HSLU I
+  </ion-toolbar>
+</ion-footer>
